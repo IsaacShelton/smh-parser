@@ -57,10 +57,12 @@ There are three types:
 
 
 
+
+
 ### Usage:
 
 ```
-import { smh, Failure, ErrorCode } from 'smh-parser';
+import { smh, Failure } from 'smh-parser';
 
 let content = smh(`
   - this
@@ -70,7 +72,7 @@ let content = smh(`
 `);
 
 if(content instanceof Failure){
-	console.log(content.toString());
+    console.log("ERROR - " + content.toString());
 } else {
     console.log(content);
 }
@@ -80,7 +82,7 @@ if(content instanceof Failure){
 
 
 
-### Examples
+### Examples:
 
 ```
 - name: Isaac Shelton
@@ -154,6 +156,8 @@ pages: 5
 
 
 
+
+
 ### Conventions
 
 There are no `true`, `false`, or `null`, but your code may use strings to represent them.
@@ -163,6 +167,8 @@ When this is the case, it's convention to use:
 - `true`/`"true"` for true
 - `false`/`"false"` for false
 - `null`/`"null"` for null
+
+
 
 
 
