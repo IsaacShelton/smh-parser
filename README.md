@@ -84,13 +84,13 @@ type: donut
 name: Cake
 ppu: 0.55
 image:
-	url: images/0001.jpg
-	width: 200
-	height: 200
+  url: images/0001.jpg
+  width: 200
+  height: 200
 thumbnail:
-	url: images/thumbnails/0001.jpg
-	width: 32
-	height: 32
+  url: images/thumbnails/0001.jpg
+  width: 32
+  height: 32
 ```
 
 ```
@@ -110,15 +110,15 @@ thumbnail:
   email: wdouce2@xing.com
   ip address: 194.87.70.152
 - id: 4
-	first name: Benedicta
-	last name: Pitcher
-	email: bpitcher3@macromedia.com
-	ip address: 121.106.70.157
+  first name: Benedicta
+  last name: Pitcher
+  email: bpitcher3@macromedia.com
+  ip address: 121.106.70.157
 - id: 5
-	first name: Kasey
-	last name: Gutherson
-	email: kgutherson4@mail.ru
-	ip address: 32.37.84.111
+  first name: Kasey
+  last name: Gutherson
+  email: kgutherson4@mail.ru
+  ip address: 32.37.84.111
 ```
 
 ```
