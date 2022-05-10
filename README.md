@@ -54,7 +54,31 @@ There are three types:
   year: 1958
   ```
 
-  
+
+
+
+### Parser Usage:
+
+```
+import { smh, Failure, ErrorCode } from 'smh-parser';
+
+let content = smh(`
+  - this
+  - is
+  - an
+  - array
+`);
+
+if(content instance of Failure){
+	console.log(content.toString());
+} else {
+	console.log(content);
+}
+```
+
+
+
+
 
 ### Examples
 
