@@ -57,7 +57,7 @@ There are three types:
 
 
 
-### Parser Usage:
+### Usage:
 
 ```
 import { smh, Failure, ErrorCode } from 'smh-parser';
@@ -69,10 +69,10 @@ let content = smh(`
   - array
 `);
 
-if(content instance of Failure){
+if(content instanceof Failure){
 	console.log(content.toString());
 } else {
-	console.log(content);
+    console.log(content);
 }
 ```
 
